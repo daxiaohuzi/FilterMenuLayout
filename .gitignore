@@ -1,6 +1,7 @@
 ### Android template
 # Built application files
 *.apk
+!/preview/app-release.apk
 *.ap_
 
 # Files for the Dalvik VM
