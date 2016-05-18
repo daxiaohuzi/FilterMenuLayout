@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <online.osslab.FilterMenuLayout
+        android:id="@+id/filter_menu1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="8dp"
+        app:centerHorizontal="true"
+        app:centerLeft="30dp"
+        app:centerVertical="true"
+        app:collapsedRadius="24dp"
+        app:expandedRadius="96dp"
+        app:primaryColor="#ff636363"
+        app:primaryDarkColor="#ff292929" />
+
+    <online.osslab.FilterMenuLayout
+        android:id="@+id/filter_menu2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="8dp"
+        app:centerLeft="48dp"
+        app:centerTop="100dp"
+        app:collapsedRadius="24dp"
+        app:expandedRadius="96dp"
+        app:primaryColor="#ff3163"
+        app:primaryDarkColor="#ce3d68" />
+
+    <online.osslab.FilterMenuLayout
+        android:id="@+id/filter_menu3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="8dp"
+        app:centerBottom="50dp"
+        app:centerRight="50dp"
+        app:collapsedRadius="24dp"
+        app:expandedRadius="96dp"
+        app:primaryColor="#ff37aa4a"
+        app:primaryDarkColor="#ff20622b" />
+
+    <online.osslab.FilterMenuLayout
+        android:id="@+id/filter_menu4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="8dp"
+        app:centerBottom="50dp"
+        app:centerLeft="50dp"
+        app:collapsedRadius="24dp"
+        app:expandedRadius="96dp"
+        app:primaryColor="#ff5791aa"
+        app:primaryDarkColor="#ff334862" />
+</FrameLayout>
