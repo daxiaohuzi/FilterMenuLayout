@@ -6,7 +6,7 @@
 一款非常高效的过滤器菜单视图，可自动检测并调整菜单布局，支持显示 Android 菜单资源文件。
 
 <img src="./preview/preview.png" alt="FilterMenu" title="FilterMenu" width="300" height="auto" align="right" vspace="52" />
-<img src="./preview/app.png" alt="FilterMenu" title="FilterMenu" width="300" height="auto" align="right" vspace="52" />
+
 
 ## 使用方法
 
@@ -19,7 +19,7 @@ dependencies {
 ```
 
 
- - 布局文件
+#### 布局文件
 ```xml
     <online.osslab.FilterMenuLayout
         android:id="@+id/filter_menu"
@@ -35,7 +35,9 @@ dependencies {
     </online.osslab.FilterMenuLayout>
 ```
 
-#####  `属性说明：`
+<img src="./preview/app.png" alt="FilterMenu" title="FilterMenu" width="300" height="auto" align="right" vspace="52" />
+
+######  `属性说明：`
 ```xml
     app:expandedRadius    // 扩展圆角
     app:collapsedRadius    //  初始圆角
@@ -46,7 +48,7 @@ dependencies {
     app:primaryDarkColor    // 扩展主色调
 ```
 
- - 代码构建
+#### 代码构建
 ```java
 FilterMenuLayout layout = (FilterMenuLayout) findViewById(R.id.filter_menu);
     FilterMenu menu = new FilterMenu.Builder(this)
