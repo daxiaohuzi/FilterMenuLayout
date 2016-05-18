@@ -68,11 +68,6 @@ FilterMenuLayout layout = (FilterMenuLayout) findViewById(R.id.filter_menu);
         .build();
 ```
 
-## 演示示例
-
-<img src="./preview/app.png" alt="FilterMenu" title="FilterMenu" width="300" height="auto" />
-
-
 ## 关于作者
 
 - [wall-e@live.cn](mailto:wall-e@live.cn)
